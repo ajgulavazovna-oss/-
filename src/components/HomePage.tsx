@@ -133,7 +133,7 @@ export function HomePage({ onAddressClick, onCategoryClick, onReady, onPartnerCl
           <CategoryCard image="/food-card.png" label="Еда" onClick={() => onCategoryClick?.('food')} />
           <CategoryCard image="/delivery-card.png" label="Доставка" onClick={() => onCategoryClick?.('delivery')} />
           <CategoryCard image="/taxi-card.png" label="Такси" dimmed pillBadge="Скоро 🚖" />
-          <CategoryCard image="/services-card.png" label="Услуги" banner pillBadge="New" onClick={() => onCategoryClick?.('services')} />
+          <CategoryCard image="/services-card.png" label="Услуги" dimmed pillBadge="Скоро 🛠️" />
         </div>
         <PopularRestaurants onPartnerClick={onPartnerClick} onViewAll={onViewAll} />
       </div>
